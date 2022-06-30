@@ -1,0 +1,435 @@
+body{
+  text-align: center;
+}
+.container-fluid{
+    background-color: #C70039;
+    padding: 3% 7%;
+}
+.navbar{
+  background-color: #FFCC29;
+  padding: 2% 14% 0 7%;
+}
+.navbar-brand{
+  font-family: 'Courgette', cursive;
+  font-size: 3.25rem;
+  padding: 0.5%;
+}
+.navimg{
+  width: 8%;
+  height: 8%;
+}
+.nav-link{
+  font-size: 1rem;
+  font-family:  'Montserrat', sans-serif;
+}
+.nav-item{
+  margin: 1% 0 1% 4%;
+}
+.dropdown-menu{
+  background-color: #FFCC29;
+
+}
+.dmhead{
+  /* background: white; */
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+.stand{
+  padding: 3% 3% 0;
+  font-size: 1rem;
+  /* font-weight: 300; */
+  color:rgba(0,0,0,.5);
+}
+img{
+  width: 100%;
+}
+.row .tagline{
+  padding: 2% 3% 0 2%;
+  color:#ffffffed;
+  text-align: left;
+  /* background-color: #C70039; */
+}
+.tagline h1{
+  font-family: 'Vollkorn', serif;
+  font-family:  'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.6em;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 0 7%;
+}
+.carousel-control-prev{
+  padding-right: 9%;
+}
+.carousel-control-next{
+  padding-left: 9%;
+}
+#features{
+  padding: 6% 8%;
+  background-color: #fff;
+}
+.feature-box{
+  text-align: center;
+  padding: 5% 2%;
+  line-height: 1.5;
+}
+.easy{
+  font-weight: bold;
+  margin: 10% 0 4% 0;
+  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Roboto Slab', serif */
+  font-family:  'Montserrat', sans-serif;
+}
+.feature p{
+  color: #8f8f8f;
+  font-family:  'Montserrat', sans-serif;
+}
+.fa-3x{
+  color:  #e02309;
+}
+.content{
+  background-color:  #C70039;
+  padding-bottom: 8%;
+}
+.con{
+  display: inline-block;
+  /* height: 100%; */
+  min-height: 90%;
+  margin: 2% 0 6% 0;
+}
+.con img{
+  display: inline-block;
+  width: 100%;
+  min-height: 100%;
+}
+
+.imgtext{
+  background-color:  #FFCC29;
+  color: #ffffffed;
+  padding:2% 0;
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  /* box-shadow: 4px 4px 4px black; */
+}
+
+.shadow{
+  display: inline-block;
+  min-height: 100%;
+}
+.shadow:hover{
+  box-shadow: 4px 0 4px black !important;
+}
+.content h1{
+    color: #ffffffed;
+  padding: 3% 0 0 0;
+  font-size: 3.5em;
+  font-family: 'Lobster Two', cursive;
+  /* font-family: 'DM Serif Display', serif; */
+}
+.special{
+  margin: 5% 0 0 0 ;
+}
+hr{
+background-color: white;
+  border:dotted #FFCC29 6px;
+  width: 4%;
+  border-bottom: none;
+  margin: 0 auto 7%;
+}
+/* .lak1{
+  padding-bottom: 4%;
+} */
+@media screen and (max-width:1276px) {
+  .lak2 .imgtext{
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1136px ) {
+  .lak3 .imgtext{
+    font-size: 1.3rem;
+  }
+  .lak2 .imgtext{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1048px ) {
+  .lak2 .imgtext{
+    font-size: 1.1rem;
+  }
+  .lak4 .imgtext{
+    font-size: 1.3rem;
+  }
+
+}
+@media screen and (max-width: 1048px) {
+  .tagline h1{
+    font-size: 2.25rem
+  }
+}
+@media screen and (max-width: 992px) {
+  /* navabar */
+.stand{
+  display: none;
+}
+.nav-link{
+  padding: 0 ;
+}
+.tagline h1{
+  font-size: 2.1rem;
+}
+  /* features */
+  #features{
+    padding: 12% 3%;
+  }
+  .feature-box{
+    display: inline-block;
+    margin: 0 auto;
+    width: 66%;
+
+  }
+.easy{
+margin: 3% auto 3% auto;
+}
+.lak1 .imgtext{
+  font-size: 1.18rem;
+}
+/* .lak{
+  padding-bottom: 12%;
+} */
+}
+@media screen and (width:768px) {
+  .tagline h1{
+    font-size: 1.9rem;
+  }
+}
+@media screen and (max-width: 767px) {
+
+  /* navbar */
+  .navbar{
+    padding-bottom: 4%;
+  }
+  .row .tagline{
+    padding:7% 6% 6% 6%;
+  }
+  .tagline h1{
+    text-align: center;
+    font-size: 2.7rem;
+  }
+
+  /* content */
+  .content{
+    padding-bottom: 8%;
+  }
+  .con img{
+    height: 89%;
+  }
+  .con{
+    margin: 4% 0 10% 0;
+  }
+  .content h1{
+    margin: 6% 0 0 0 ;
+  }
+  hr{
+      width: 9%;
+      margin-bottom: 10%;
+  }
+  .lak1 .imgtext{
+    font-size: 1.35rem;
+  }
+  /* .lak{
+    padding-bottom: 0;
+  } */
+
+}
+/* @media screen and (max-width:630px) {
+  .lak1{
+    padding-bottom: 6%;
+  }
+} */
+@media screen and (max-width: 576px){
+  /* navbar */
+  .tagline h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+/* contact */
+.con{
+  width: 66%;
+  margin: 5% auto 12% auto;
+  padding: 4% 0;
+}
+.con img{
+  height: 82%;
+}
+.content h1{
+  margin: 9% auto 2%;
+}
+hr{
+  margin: 0 auto 15%;
+  width: 12%;
+}
+.lak{
+  padding-bottom: 15%;
+}
+.navbar-brand{
+  font-size: 2.44rem;
+}
+.nav-item{
+  margin: 2% auto;
+}
+}
+@media screen and (max-width:992px and min-width:769px) {
+  .con{
+    margin: 3% 0 8% 0;
+  }
+}
+@media screen and (max-width:768px and min-width:576px) {
+  .con{
+    margin: 4% 0 9% 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .con img{
+    height: 100%;
+  }
+}
+.contact{
+  display: inline-block;
+  height: 24em;
+}
+.phone.col-lg-6{
+  display: inline-block;
+  height: 18em;
+  background-color: white;
+  border: 3px solid #f1f1f1;
+  max-width: 39%;
+  margin: 2% 1%;
+}
+.phone.left{
+  margin-left: 10%;
+}
+.contact h1{
+color: #ffffffed;
+padding: 3% 0 0 0;
+font-size: 3.5em;
+font-family: 'Lobster Two', cursive;
+}
+.contact hr{
+  margin-bottom: 3%;
+}
+.contact>p{
+  color: #ffffffed;
+  font-size: 1.25em;
+}
+.phone .fa-3x{
+  padding: 7% 0;
+}
+.phone p{
+  color: #8f8f8f;
+}
+.phone .h3{
+  padding: 2% 3% 0;
+  color: black;
+  font-size: 1.25em;
+  font-family:  'Montserrat', sans-serif;
+}
+a.blue{
+  color: #10c3d6;
+  font-family:  'Montserrat', sans-serif;
+   /* font-family: 'Ubuntu', sans-serif; */
+   font-family: 'Roboto Slab', serif;
+}
+.space{
+  background: white;
+  display: inline-block;
+  height: 30em;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+
+  .phone.left{
+    margin: auto 0 ;
+  }
+  .phone.col-lg-6{
+    max-width: 75%;
+    margin: 7% auto;
+  }
+  .space{
+    height: 35em;
+  }
+}
+.footer{
+  background: #171717;
+  /* 191A19 */
+  color: white;
+  text-align: left;
+  padding-top: 5%;
+}
+ul{
+  list-style: outside none none;
+  padding: 5% 0;
+}
+#footer a{
+  color: #fffffffa;
+  font-family:  'Montserrat', sans-serif;
+}
+ul a:hover{
+  color: white;
+  text-decoration: none;
+  /* text-shadow: 2px 2px 4px white; */
+  font-weight: bold
+}
+ul h3{
+  padding-left: 0;
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Roboto Slab', serif;
+}
+ul hr{
+  margin: 4% 0;
+  width: 25%;
+}
+.footcon{
+  padding: 3% 0 ;
+}
+.footcon i{
+  margin: 0 5% 0 0;
+}
+@media screen and (min-width:992px) {
+  a.email{
+   font-size: 0.99vw;
+   display: inline-block;
+   height: 50%;
+   width: 50%;
+ }
+}
+@media screen and (max-width:992px ){
+  a.email{
+   font-size: 1.8vw;
+ }
+}
+@media screen and (max-width:450px ){
+  .email{
+   font-size: 3.5vw;
+   display: inline-block;
+   /* height: 50%;
+   width: 50%; */
+ }
+}
+
+
+/* @media screen and (max-width: 992px) {
+.footer{
+  text-align: center;
+}
+} */
+/* C70039 EC255A  DA0037 BD1616 DA0037 A20A0A*/
+/* FFCE45 FFCC29 */
+/* Good Crafts for Good Relations    Crafting our way to your heart      Designed to bring you happiness.
+The beautiful crafts are made only by hand. Say hello to the world of craft.
+Bring home a variety of beautiful handmade crafts now.*/
+/* last m do bande footer m
+buy now m yellow*/
